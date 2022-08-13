@@ -8,11 +8,11 @@ const Header = () => {
 
 
       
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+<nav class="bg-gray-700 border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
         <a href="https://flowbite.com" class="flex items-center">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            <img src={logo} class=" h-6 sm:h-9" alt="Flowbite Logo" />
+            <span class="self-center text-white text-xl font-semibold whitespace-nowrap dark:text-white">আসমানের আয়োজন</span>
         </a>
         <div class="flex items-center">
            
@@ -28,13 +28,13 @@ const Header = () => {
                     <a href="# " class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="# " class="text-gray-900 dark:text-white hover:underline">Company</a>
+                    <a href="# " class="text-gray-900 dark:text-white hover:underline">Content</a>
                 </li>
                 <li>
-                    <a href="# " class="text-gray-900 dark:text-white hover:underline">Team</a>
+                    <a href="# " class="text-gray-900 dark:text-white hover:underline">Content us</a>
                 </li>
                 <li>
-                    <a href="# " class="text-gray-900 dark:text-white hover:underline">Features</a>
+                    <a href="# " class="text-gray-900 dark:text-white hover:underline">About Us</a>
                 </li>
             </ul>
         </div>
