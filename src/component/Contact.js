@@ -4,7 +4,9 @@ const Contact = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold  text-gray-700"> Contact Us</h1>
-      <div className="w-20 mb-5 lg:ml-[805px] sm:ml-[250px]  h-1 bg-[#FF87B7]"></div>
+      <div className='mx-auto w-full'>
+      <div className="w-20 mb-5 mx-auto h-1 bg-[#FF87B7]"></div>
+      </div>
       <div className=" md:flex md:justify-center mb-6">
         <form action="">
           <label
